@@ -7,6 +7,6 @@ import org.springframework.stereotype.Repository;
 
 
 @Repository
-public interface IDcardRepository extends JpaRepository<CarteIdentite, Integer> {
+public interface CarteIdentiteRepository  extends JpaRepository<CarteIdentite, Integer> {
 
 }
