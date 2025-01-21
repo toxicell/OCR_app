@@ -24,9 +24,9 @@ public class Passport {
     private String nom;
     private String prenom;
     private String nationalite;
-    private LocalDate dateDeDeliverance;
-    private LocalDate dateExpiration;
-    private LocalDate dateNaissance;
+    private String dateDeDeliverance;
+    private String dateExpiration;
+    private String dateNaissance;
     private String LieuNaissance;
 
     public Long getId() {
@@ -49,15 +49,15 @@ public class Passport {
         return nationalite;
     }
 
-    public LocalDate getDateDeDeliverance() {
+    public String getDateDeDeliverance() {
         return dateDeDeliverance;
     }
 
-    public LocalDate getDateExpiration() {
+    public String getDateExpiration() {
         return dateExpiration;
     }
 
-    public LocalDate getDateNaissance() {
+    public String getDateNaissance() {
         return dateNaissance;
     }
 
@@ -85,15 +85,15 @@ public class Passport {
         this.nationalite = nationalite;
     }
 
-    public void setDateDeDeliverance(LocalDate dateDeDeliverance) {
+    public void setDateDeDeliverance(String dateDeDeliverance) {
         this.dateDeDeliverance = dateDeDeliverance;
     }
 
-    public void setDateNaissance(LocalDate dateNaissance) {
+    public void setDateNaissance(String dateNaissance) {
         this.dateNaissance = dateNaissance;
     }
 
-    public void setDateExpiration(LocalDate dateExpiration) {
+    public void setDateExpiration(String dateExpiration) {
         this.dateExpiration = dateExpiration;
     }
 

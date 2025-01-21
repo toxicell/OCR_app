@@ -20,9 +20,9 @@ public class CarteIdentite {
     private String nom;
     private String prenom;
     private String numeroCarteNational;
-    private LocalDate dateFinCarteNational;
+    private String dateFinCarteNational;
     private String adresse;
-    private LocalDate dateNaissance;
+    private String dateNaissance;
 
 
     // Getters and Setters
@@ -58,11 +58,11 @@ public class CarteIdentite {
         this.numeroCarteNational = numeroCarteNational;
     }
 
-    public LocalDate getDateFinCarteNational() {
+    public String getDateFinCarteNational() {
         return dateFinCarteNational;
     }
 
-    public void setDateFinCarteNational(LocalDate dateFinCarteNational) {
+    public void setDateFinCarteNational(String dateFinCarteNational) {
         this.dateFinCarteNational = dateFinCarteNational;
     }
 
@@ -74,11 +74,11 @@ public class CarteIdentite {
         this.adresse = adresse;
     }
 
-    public LocalDate getDateNaissance() {
+    public String getDateNaissance() {
         return dateNaissance;
     }
 
-    public void setDateNaissance(LocalDate dateNaissance) {
+    public void setDateNaissance(String dateNaissance) {
         this.dateNaissance = dateNaissance;
     }
 

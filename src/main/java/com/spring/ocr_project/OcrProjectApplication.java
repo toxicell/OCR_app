@@ -27,25 +27,25 @@ public class OcrProjectApplication {
             card1.setNom("badr");
             card1.setPrenom("John");
             card1.setNumeroCarteNational("C123456789");
-            card1.setDateFinCarteNational(LocalDate.of(2030, 12, 31));
+            card1.setDateFinCarteNational("12.02.2025");
             card1.setAdresse("123 Main St, Cityville");
-            card1.setDateNaissance(LocalDate.of(1990, 1, 15));
+            card1.setDateNaissance("12.02.2025");
 
             CarteIdentite card2 = new CarteIdentite();
             card2.setNom("Smith");
             card2.setPrenom("Jane");
             card2.setNumeroCarteNational("C987654321");
-            card2.setDateFinCarteNational(LocalDate.of(2028, 6, 15));
+            card2.setDateFinCarteNational("12.02.2025");
             card2.setAdresse("456 Oak Ave, Townsville");
-            card2.setDateNaissance(LocalDate.of(1985, 7, 20));
+            card2.setDateNaissance("12.02.2025");
 
             Passport passport = new Passport();
             passport.setNom("omar");
             passport.setPrenom("trey");
             passport.setPassportNumber("VLB5D8F");
-            passport.setDateNaissance(LocalDate.of(1990, 1, 15));
-            passport.setDateDeDeliverance(LocalDate.of(1990, 1, 15));
-            passport.setDateExpiration(LocalDate.of(1990, 1, 15));
+            passport.setDateNaissance("12.02.2025");
+            passport.setDateDeDeliverance("12.02.2025");
+            passport.setDateExpiration("12.02.2025");
             passport.setLieuNaissance("Moscow");
             passport.setNationalite("Russia");
 
